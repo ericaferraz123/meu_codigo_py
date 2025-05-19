@@ -71,3 +71,40 @@
 
 # for i in range(1, n + 1):
 #     print('*' * i)
+
+import tkinter as tk
+ 
+janela=tk.Tk("Title")
+janela.title("Procure seu item") 
+janela.geometry("500x500") 
+janela.config(bg="blue") 
+ 
+fila = ["Pão", "Queijo", "Macarrão", "Celular" , "Televisão"]
+ 
+ 
+   
+ 
+def item_Fila():
+    item_recebido = entrada.get()
+    for item in fila:
+        if item == item_recebido:
+            label.config(text=F'{item_recebido} esta na lista.')
+            break
+        else:
+            label.config(text=F'{item_recebido} não esta na lista.')
+ 
+ 
+ 
+entrada = tk.Entry(janela)
+entrada.pack()
+ 
+label1 = tk.Label(janela, text="Pesquise na lista")
+label1.pack()
+ 
+botao_procurar = tk.Button(janela, text="Achar ", command= item_Fila)
+botao_procurar.pack()
+ 
+label = tk.Label(janela, text="  ", bg="purple")
+label.pack()
+ 
+janela.mainloop()

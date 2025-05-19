@@ -1,0 +1,11 @@
+3e4 - 001 - 20/05/2025 
+sdf - 3  - 3.0 
+
+total :15.0
+Pedido 023 | R$ 21.00 | Cliente: qwerfg - Tel: fg333
+Pedido 003 | R$ 4.00 | Cliente: erica - Tel: ferraz
+Pedido 004 | R$ 5.00 | Cliente: as - Tel: 23
+Pedido Nº: 3435
+Valor Total: R$ 23.00
+Nome: wedfgh, Telefone: 34567
+---
